@@ -63,6 +63,12 @@ After the repository is forked, you can deploy it by following these steps:
 
 ## Credits
 
+### Code and Assets
+
 * *Code Institute* for the CI Full template on GitHub
 * *Code Institute* for the deployment terminal on Heroku
 * *Code Institute* for *I Think Therefore I Blog*
+
+### Media
+
+* [Main Page Photo by Invictus at Wallpaper Abyss](https://wall.alphacoders.com/big.php?i=1300550)
