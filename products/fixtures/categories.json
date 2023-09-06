@@ -1,0 +1,74 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "creatine",
+            "friendly_name": "Creatine"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "whey",
+            "friendly_name": "Whey"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "aminoacids",
+            "friendly_name": "Aminoacids"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "pullupbars",
+            "friendly_name": "Pull Up Bars"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "parallettes",
+            "friendly_name": "Parallettes"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "weightedvests",
+            "friendly_name": "Weighted Vests"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "new_arrivals",
+            "friendly_name": "New Arrivals"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "deals",
+            "friendly_name": "Deals"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "clearance",
+            "friendly_name": "Clearance"
+        }
+    }
+]
