@@ -67,8 +67,11 @@ After the repository is forked, you can deploy it by following these steps:
 
 * *Code Institute* for the CI Full template on GitHub
 * *Code Institute* for the deployment terminal on Heroku
-* *Code Institute* for *I Think Therefore I Blog*
+* *Code Institute* for *Boutique Ado*
 
 ### Media
 
 * [Main Page Photo by Invictus at Wallpaper Abyss](https://wall.alphacoders.com/big.php?i=1300550)
+* [Creatine and Whey Pictures](https://evergreen.ie/)
+* [Aminoacid Pictures](https://www.hollandandbarrett.ie/)
+* [Equipment Pictures](https://www.streetgains.eu/)
