@@ -23,6 +23,16 @@ body {
     text-transform: uppercase;
 }
 
+/* black outline around white text on main page */
+.text-outline {
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
 .main-logo-link {
     width: fit-content;
 }
