@@ -3,7 +3,7 @@
 # The Fitness Den
 Developed by **Dorian Wolarz**, a Code Institute Student
 
-*The Fitness Den is a Full Stack fitness website. Users can create personal accounts and purchase fitness plans as well as rate and comment on products.*
+*The Fitness Den is a Full Stack fitness website. Users can create personal accounts, purchase fitness products and rate items.*
 
 [LINK TO HEROKU VERSION](https://the-storyteller.herokuapp.com/)
 
