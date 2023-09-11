@@ -8,19 +8,15 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 ![The Fitness Den on a PC](N/A)
 
 ## Contents
-1. [Intro](#intro)
-2. [User Experience](#user-experience)
-3. [Data Model](#data-model)
-4. [Planning](#planning)
+1. [User Experience](#user-experience)
+2. [Planning](#planning)
+3. [Data Models](#data-models)
+4. [Features](#features)
 5. [Technologies Used](#technologies-used)
 6. [Testing and Validation](#testing-and-validation)
 6. [Known Bugs](#known-bugs)
 8. [Deployment](#deployment)
 9. [Credits](#credits)
-
-## Intro
-
-N/A
 
 ## User Experience
 
@@ -64,13 +60,17 @@ For the purpose of this project I have created a list of fitting user and admin 
 
 I followed the *Agile Methodology* when developing user stories and all of them are available on a separate Project board as well.
 
-## Data Model
-
-N/A
-
 ## Planning
 
-N/A
+N/A - colours, fonts and wireframes
+
+## Data Models
+
+N/A - custom models
+
+## Features
+
+N/A - all the features of the webpage, explained
 
 ## Technologies Used
 
@@ -100,11 +100,11 @@ N/A
 
 ## Testing and Validation
 
-N/A
+N/A - all the testing and validation of code and functions of the website
 
 ## Known Bugs
 
-N/A
+N/A - bugs which are known and still unfixed
 
 ## Deployment
 
