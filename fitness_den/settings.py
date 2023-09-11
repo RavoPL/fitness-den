@@ -76,7 +76,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',  # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -104,13 +104,13 @@ SITE_ID = 1
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-ACCOUNT_AUTHENTICATION_METHOD = 'username_email' # tells allauth we want authentication using usernames or emails
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'  # tells allauth we want authentication using usernames or emails
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
-LOGIN_URL = '/accounts/login/' # url to log in
-LOGIN_REDIRECT_URL = '/' # url to redirect to after logging in
+LOGIN_URL = '/accounts/login/'  # url to log in
+LOGIN_REDIRECT_URL = '/'  # url to redirect to after logging in
 
 WSGI_APPLICATION = 'fitness_den.wsgi.application'
 
