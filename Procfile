@@ -1,0 +1,1 @@
+web: gunicorn fitness_den.wsgi:application
