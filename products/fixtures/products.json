@@ -292,5 +292,47 @@
          "image_url":"https://evergreen.ie/cdn/shop/files/optimum-nutrition-gold-standard-pre-workout-green-apple.jpg?v=1686930186&width=360",
          "image":"optimumnutrition_pre_greenapple.png"
       }
+   },
+   {
+      "pk":22,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"Holland and Barrett Ultra Man - 30 Tablets",
+         "description":"Holland and Barrett's Ultra Man is a comprehensive multivitamin and mineral supplement. The synergistic blend of essential nutrients provides nutritional support for men, in a convenient once-a-day tablet.",
+         "price":9.99,
+         "category":8,
+         "rating":3.9,
+         "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/049861_A.jpg",
+         "image":"hollandbarret_ultraman.png"
+      }
+   },
+   {
+      "pk":23,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002440521",
+         "name":"USN Ashwagandha - 30 Capsules",
+         "description":"USN's Ashwagandha uses a patented ashwagandha extract to ensure high quality and concentration. Improves the body's resistance to stress and helps maintain mental balance whilst supporting the onset of sleep. Also supports learning, memory and recall.",
+         "price":29.99,
+         "category":8,
+         "rating":4.8,
+         "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/036994_A.jpg",
+         "image":"usn_ashwagandha.png"
+      }
+   },
+   {
+      "pk":24,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5003270936",
+         "name":"Holland and Barrett Super Multivitamins and Minerals - 60 Tablets",
+         "description":"Holland and Barrett specially formulated multi-vitamin and multi-mineral supplement, designed to be our highest strength formula. A selection of digestive enzymes, amino acids, lecithin and additional substances for nutritional support conveniently packed into a one-a-day caplet.",
+         "price":29.99,
+         "category":8,
+         "rating":4.8,
+         "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/047357_A.jpg",
+         "image":"hollandbarret_multivitamins.png"
+      }
    }
 ]

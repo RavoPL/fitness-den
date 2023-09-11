@@ -72,6 +72,6 @@ After the repository is forked, you can deploy it by following these steps:
 ### Media
 
 * [Main Page Photo by Invictus at Wallpaper Abyss](https://wall.alphacoders.com/big.php?i=1300550)
-* [Creatine and Whey Pictures](https://evergreen.ie/)
-* [Aminoacid Pictures](https://www.hollandandbarrett.ie/)
+* [Creatine, Whey and New Arrivals Pictures](https://evergreen.ie/)
+* [Aminoacid and Deals Pictures](https://www.hollandandbarrett.ie/)
 * [Equipment Pictures](https://www.streetgains.eu/)
