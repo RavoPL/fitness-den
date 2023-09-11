@@ -334,5 +334,47 @@
          "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/047357_A.jpg",
          "image":"hollandbarret_multivitamins.png"
       }
+   },
+   {
+      "pk":25,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5003690116",
+         "name":"ABS StreetGains Gymnastic Rings",
+         "description":"Two high-quality ABS rings with numbered straps, steel closures and a carrying bag.",
+         "price":39.99,
+         "category":9,
+         "rating":4.1,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1637847891.jpg",
+         "image":"abs_gymnastic_rings.png"
+      }
+   },
+   {
+      "pk":26,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5003960062",
+         "name":"Lifemaxx Wooden Gymnastic Rings",
+         "description":"Set consists of two wooden rings with numbered straps and steel closures.",
+         "price":59.99,
+         "category":9,
+         "rating":4.4,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/528507762.png",
+         "image":"lifemaxx_gymnastic_rings.png"
+      }
+   },
+   {
+      "pk":27,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5004940703",
+         "name":"StreetGains Resistance Fitness Bands",
+         "description":"Set consists of six premium Resistance Bands.",
+         "price":89.99,
+         "category":9,
+         "rating":4.7,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1771336587.jpg",
+         "image":"streetgains_resistance_bands.png"
+      }
    }
 ]
