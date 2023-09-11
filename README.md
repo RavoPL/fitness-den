@@ -1,5 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 # The Fitness Den
 Developed by **Dorian Wolarz**, a Code Institute Student
 
@@ -10,8 +8,8 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 ![The Fitness Den on a PC](N/A)
 
 ## Contents
-1. [How to Play](#how-to-play)
-2. [Features](#features)
+1. [Intro](#intro)
+2. [User and Admin Stories](#user-and-admin-stories)
 3. [Data Model](#data-model)
 4. [Planning](#planning)
 5. [Technologies Used](#technologies-used)
@@ -19,6 +17,56 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 6. [Known Bugs](#known-bugs)
 8. [Deployment](#deployment)
 9. [Credits](#credits)
+
+## Intro
+
+N/A
+
+## User and Admin Stories
+
+N/A
+
+## Data Model
+
+N/A
+
+## Planning
+
+N/A
+
+## Technologies Used
+
+### Languages
+
+* HTML 5
+* CSS 3
+* Python 3
+* JavaScript
+
+### Tools and Websites
+
+* Git *for version control*
+* GitHub *to store code and deploy the website*
+* GitPod *as an IDE to build the project and edit the code*
+* Django *as framework to develop the project*
+* Heroku *to deploy the project and host it*
+* Stripe *to generate necessary webhooks and make fictional payments*
+* Bootstrap *to access HTML design templates*
+* Crispy Forms *to access and display premade forms on the website*
+* Fontawesome *to access free icons*
+* GoogleFonts *to access different font styles*
+* ElephantSQL *to serve as a database for Heroku*
+* W3C *to validate HTML and CSS code*
+* CI Python Linter *to validate Python code*
+* JShint *to validate JavaScript code*
+
+## Testing and Validation
+
+N/A
+
+## Known Bugs
+
+N/A
 
 ## Deployment
 
