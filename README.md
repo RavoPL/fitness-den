@@ -9,7 +9,7 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 
 ## Contents
 1. [Intro](#intro)
-2. [User and Admin Stories](#user-and-admin-stories)
+2. [User Experience](#user-experience)
 3. [Data Model](#data-model)
 4. [Planning](#planning)
 5. [Technologies Used](#technologies-used)
@@ -22,9 +22,47 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 
 N/A
 
-## User and Admin Stories
+## User Experience
 
-N/A
+For the purpose of this project I have created a list of fitting user and admin stories to serve as a design guide in creating this webpage. *The Fitness Den* is a store selling fitness products and, as such, I based it on the Code Institute project of *Boutique Ado* given the similar theme. I've come up with the following user and admin stories thus far:
+
+### Admin Stories
+
+* As a **site admin** I can **add a product** so that **I can increase the stocks in my store**.
+* As a **site admin** I can **edit and update existing products** so that **I can make real time changes to my stocks**.
+* As a **site admin** I can **delete a product** so that **I can remove an existing item from the listings**.
+
+### User Stories - Navigation
+
+* As a **site user** I can **view a list of products** so that **I can purchase items**.
+* As a **site user** I can **identify the price, description, product rating and other details** so that **I can purchase a product to my liking**.
+* As a **site user** I can **identify deals, clearance items and special offers** so that **I can make the purchases I want**.
+* As a **site user** I can **view the total purchases** so that **I can avoid spending funds beyond my budget**.
+* As a **site user** I can **sort the list of available products** so that **I can identify best rated and best priced items**.
+* As a **site user** I can **sort a specific category of product** so that **I can find the best deals in the category I'm interested in**.
+* As a **site user** I can **sort multiple categories simultaneously** so that **I can find best offers across multiple categories**.
+* As a **site user** I can **search for a product by name or description** so that **I can easily find what I'm looking for**.
+* As a **site user** I can **access search bar results** so that **I can quickly decide whether the product I want to purchase is available**.
+
+### User Stories - Accounts and Management
+
+* As a **site user** I can **easily register a user account** so that **I can have access to my personal profile**.
+* As a **site user** I can **log in and out** of my profile so that **I can access my personal account information**.
+* As a **site user** I can **safely recover my password** in case **I forget it**.
+* As a **site user** I can **receive a confirmation e-mail after registration** so that **I can approve my profile**.
+* As a **site user** I can **have a personalized user profile** so that **I can view my order history, order confirmations, as well as save and edit my personal payment information**.
+
+### User Stories - Purchases
+
+* As a **site user** I can **easily select the quantity and size of product** so that **I can purchase an item I desire**.
+* As a **site user** I can **views the items I currently have in my bag** so that **I can identify the total cost of my purchase as well as the items I will receive**.
+* As a **site user** I can **adjust the quantity of items in my shopping bag** so that **I can make changes to my purchase before checkout**.
+* As a **site user** I can **enter my payment information** so that **checkout quickly**.
+* As a **site user** I can **be certain that my personal and payment information are safe** so that **I can confidently provide sensitive information to make a purchase**.
+* As a **site user** I can **view an order after I checkout** so that **I can verify I haven't made any mistakes**.
+* As a **site user** I can **receive an e-mail confirmation after I checkout** so that **I can be sure my payment went through and so I can keep a record**.
+
+I followed the *Agile Methodology* when developing user stories and all of them are available on a separate Project board as well.
 
 ## Data Model
 
