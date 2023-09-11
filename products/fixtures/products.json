@@ -10,7 +10,7 @@
          "category":1,
          "rating":4.2,
          "image_url":"https://evergreen.ie/cdn/shop/products/optimum_nutrition_creatine_powder.jpg?v=1624524584&width=360",
-         "image":"optimumnutrition_creatine.jpg"
+         "image":"optimumnutrition_creatine.png"
       }
    },
    {
@@ -24,7 +24,7 @@
          "category":1,
          "rating":4.6,
          "image_url":"https://evergreen.ie/cdn/shop/products/flexi-nutrition-creatine.jpg?v=1662732581&width=360",
-         "image":"flexinutrition_creatine.jpg"
+         "image":"flexinutrition_creatine.png"
       }
    },
    {
@@ -38,7 +38,7 @@
          "category":1,
          "rating":4.7,
          "image_url":"https://evergreen.ie/cdn/shop/products/KineticaCreatine.jpg?v=1643123838&width=360",
-         "image":"kinetica_creatine.jpg"
+         "image":"kinetica_creatine.png"
       }
    },
    {
@@ -52,7 +52,7 @@
          "category":2,
          "rating":4.5,
          "image_url":"https://evergreen.ie/cdn/shop/products/optimum-nutrition-gold-standard-whey-protein.jpg?v=1662729951&width=360",
-         "image":"optimumnutrition_goldwhey.jpg"
+         "image":"optimumnutrition_goldwhey.png"
       }
    },
    {
@@ -66,7 +66,7 @@
          "category":2,
          "rating":5.0,
          "image_url":"https://evergreen.ie/cdn/shop/products/flexinutrition.jpg?v=1624525587&width=360",
-         "image":"flexinutrition_whey.jpg"
+         "image":"flexinutrition_whey.png"
       }
    },
    {
@@ -80,7 +80,7 @@
          "category":2,
          "rating":4.7,
          "image_url":"https://evergreen.ie/cdn/shop/files/nuzest-just-natural-clean-lean-protein-500g.jpg?v=1687360478&width=360",
-         "image":"nuzest_cleanprotein.jpg"
+         "image":"nuzest_cleanprotein.png"
       }
    },
    {
@@ -94,7 +94,7 @@
          "category":3,
          "rating":4.4,
          "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/076734_A.jpg",
-         "image":"optimumnutrition_aminoenergy_fruit.jpg"
+         "image":"optimumnutrition_aminoenergy_fruit.png"
       }
    },
    {
@@ -108,7 +108,7 @@
          "category":3,
          "rating":4.5,
          "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/048419_A.jpg",
-         "image":"optimumnutrition_aminoenergy_lemon.jpg"
+         "image":"optimumnutrition_aminoenergy_lemon.png"
       }
    },
    {
@@ -122,7 +122,7 @@
          "category":3,
          "rating":4.7,
          "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/076733_A.jpg",
-         "image":"optimumnutrition_aminoenergy_orange.jpg"
+         "image":"optimumnutrition_aminoenergy_orange.png"
       }
    },
    {
@@ -136,7 +136,7 @@
          "category":4,
          "rating":4.4,
          "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1879178805.jpg",
-         "image":"multigrip_pullupbar.jpg"
+         "image":"multigrip_pullupbar.png"
       }
    },
    {
@@ -150,7 +150,7 @@
          "category":4,
          "rating":3.0,
          "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1450402357.jpg",
-         "image":"door_pullupbar.jpg"
+         "image":"door_pullupbar.png"
       }
    },
    {
@@ -164,7 +164,7 @@
          "category":4,
          "rating":4.6,
          "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/431198331.jpg",
-         "image":"chinning_pullupbar.jpg"
+         "image":"chinning_pullupbar.png"
       }
    },
    {
@@ -178,7 +178,7 @@
          "category":5,
          "rating":3.8,
          "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1051771235.png2",
-         "image":"adjustable_parallettes.jpg"
+         "image":"adjustable_parallettes.png"
       }
    },
    {
@@ -192,7 +192,7 @@
          "category":5,
          "rating":4.7,
          "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/529339442.png",
-         "image":"low_parallettes.jpg"
+         "image":"low_parallettes.png"
       }
    },
    {
@@ -206,7 +206,7 @@
          "category":5,
          "rating":4.8,
          "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/529334072.png",
-         "image":"normal_parallettes.jpg"
+         "image":"normal_parallettes.png"
       }
    },
    {
@@ -220,7 +220,7 @@
          "category":6,
          "rating":4.4,
          "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/502500942.png",
-         "image":"vest_ten_black.jpg"
+         "image":"vest_ten_black.png"
       }
    },
    {
@@ -234,7 +234,7 @@
          "category":6,
          "rating":4.5,
          "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/344792305.jpg",
-         "image":"vest_twenty_black.jpg"
+         "image":"vest_twenty_black.png"
       }
    },
    {
@@ -248,7 +248,7 @@
          "category":6,
          "rating":4.1,
          "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1473218021.jpg",
-         "image":"vest_thirty_black.jpg"
+         "image":"vest_thirty_black.png"
       }
    },
    {
@@ -262,7 +262,7 @@
          "category":7,
          "rating":4.3,
          "image_url":"https://evergreen.ie/cdn/shop/files/optimum-nutrition-gold-standard-pre-workout-fruit-punch.jpg?v=1686929951&width=360",
-         "image":"optimumnutrition_pre_fruitpunch.jpg"
+         "image":"optimumnutrition_pre_fruitpunch.png"
       }
    },
    {
@@ -276,7 +276,7 @@
          "category":7,
          "rating":4.4,
          "image_url":"https://evergreen.ie/cdn/shop/files/Optimum-Nutrition-Gold-Standard-Pre-Workout_da560dbb-1c86-4d46-9106-67cf3e0d1783.jpg?v=1686929774&width=360",
-         "image":"optimumnutrition_pre_watermelon.jpg"
+         "image":"optimumnutrition_pre_watermelon.png"
       }
    },
    {
@@ -290,7 +290,7 @@
          "category":7,
          "rating":4.3,
          "image_url":"https://evergreen.ie/cdn/shop/files/optimum-nutrition-gold-standard-pre-workout-green-apple.jpg?v=1686930186&width=360",
-         "image":"optimumnutrition_pre_greenapple.jpg"
+         "image":"optimumnutrition_pre_greenapple.png"
       }
    },
    {
@@ -304,7 +304,7 @@
          "category":8,
          "rating":3.9,
          "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/049861_A.jpg",
-         "image":"hollandbarret_ultraman.jpg"
+         "image":"hollandbarret_ultraman.png"
       }
    },
    {
@@ -318,7 +318,7 @@
          "category":8,
          "rating":4.8,
          "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/036994_A.jpg",
-         "image":"usn_ashwagandha.jpg"
+         "image":"usn_ashwagandha.png"
       }
    },
    {
@@ -332,7 +332,7 @@
          "category":8,
          "rating":4.8,
          "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/047357_A.jpg",
-         "image":"hollandbarret_multivitamins.jpg"
+         "image":"hollandbarret_multivitamins.png"
       }
    },
    {
@@ -346,7 +346,7 @@
          "category":9,
          "rating":4.1,
          "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1637847891.jpg",
-         "image":"abs_gymnastic_rings.jpg"
+         "image":"abs_gymnastic_rings.png"
       }
    },
    {
@@ -360,7 +360,7 @@
          "category":9,
          "rating":4.4,
          "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/528507762.png",
-         "image":"lifemaxx_gymnastic_rings.jpg"
+         "image":"lifemaxx_gymnastic_rings.png"
       }
    },
    {
@@ -374,7 +374,7 @@
          "category":9,
          "rating":4.7,
          "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1771336587.jpg",
-         "image":"streetgains_resistance_bands.jpg"
+         "image":"streetgains_resistance_bands.png"
       }
    }
 ]
