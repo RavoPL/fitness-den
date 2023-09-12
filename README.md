@@ -9,7 +9,7 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 
 ## Contents
 1. [User Experience](#user-experience)
-2. [Design](#design-and-business-model)
+2. [Design and Business Model](#design-and-business-model)
 3. [Data Models](#data-models)
 4. [Features](#features)
 5. [Technologies Used](#technologies-used)
@@ -27,6 +27,7 @@ For the purpose of this project I have created a list of fitting user and admin 
 * As a **site admin** I can **add a product** so that **I can increase the stocks in my store**.
 * As a **site admin** I can **edit and update existing products** so that **I can make real time changes to my stocks**.
 * As a **site admin** I can **delete a product** so that **I can remove an existing item from the listings**.
+* As a **site admin** I can **have a footer section with important details** so that **my clients can contact me, find out more about the store and its mission and sign up to a newsletter**.
 
 ### User Stories - Navigation
 
@@ -47,6 +48,7 @@ For the purpose of this project I have created a list of fitting user and admin 
 * As a **site user** I can **safely recover my password** in case **I forget it**.
 * As a **site user** I can **receive a confirmation e-mail after registration** so that **I can approve my profile**.
 * As a **site user** I can **have a personalized user profile** so that **I can view my order history, order confirmations, as well as save and edit my personal payment information**.
+* As a **site user** I can **subscribe to a monthly newsletter** so that **I can stay in touch with the store and be informed of new products**.
 
 ### User Stories - Purchases
 
