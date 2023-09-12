@@ -9,7 +9,7 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 
 ## Contents
 1. [User Experience](#user-experience)
-2. [Design](#Design)
+2. [Design](#design-and-business-model)
 3. [Data Models](#data-models)
 4. [Features](#features)
 5. [Technologies Used](#technologies-used)
@@ -60,7 +60,9 @@ For the purpose of this project I have created a list of fitting user and admin 
 
 I followed the *Agile Methodology* when developing user stories and all of them are available on a separate Project board as well.
 
-## Design
+## Design and Business Model
+
+### Facebook 'Fitness Den' Mock-Up
 
 ![Image of My Facebook Business Mock-Up Page](media/FacebookMockup.png)
 
@@ -226,3 +228,6 @@ After the repository is forked, you can deploy it by following these steps:
 * [Gym Equipment Vectors for FB Mock-Up by macrovector](https://www.freepik.com/free-vector/dumbbells-barbells-weight-fitness_3949273.htm#query=dumbbell&position=5&from_view=keyword&track=sph#position=5&query=dumbbell)
 * [Artist Vector for FB Mock-Up by pollarize](https://www.freepik.com/premium-vector/brush-palette-icon-watercolor-logo-design_18538075.htm#query=artist%20logo&position=34&from_view=keyword&track=ais)
 * [Web Design Vector for FB Mock-Up by ferart88](https://stock.adobe.com/ie/search?k=%22web+design+logo%22&asset_id=85732813)
+
+### Acknowledgements
+* Huge thanks to the wonderful *Code Institute* community over at Slack for all the help I needed with my project, especially *Chris W Alumnus* and *Roman Rakic*.
