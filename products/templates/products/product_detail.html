@@ -111,7 +111,7 @@
     <div class="w-full">
         <h3 class="logo-font">Reviews</h3>
         {% if request.user.is_authenticated %}
-            <form method="POST" action="">
+            <form method="POST" action="{% url 'submit_review' product.id %}">
                 {% csrf_token %}
                 <h5>Leave Your Review Below</h5>
                 <hr class="block-divider block-divider--short">
@@ -137,7 +137,7 @@
                 Review:
                 <textarea name="review" class="form-control" rows="5"></textarea>
                 <br>
-                <input type="submit" value="Submit Review" class="btn btn-primary">
+                <input type="submit" value="Submit Review" class="btn btn-dark">
                 <br>
             </form>
         {% else %}

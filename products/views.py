@@ -143,14 +143,14 @@ def delete_product(request, product_id):
 
 # submit Review section - from Rathan Kumar
 def submit_review(request, product_id):
-    url = request.META.get('HTTP_REFERER')
     if request.method == 'POST':
         try:
-            reviews = ReviewRating.objects.get(user__id=request.user.id, product__id=product_id)
+            reviews = ReviewRating.objects.get(user_id=request.user.id, product_id=product_id)
             form = ReviewForm(request.POST, instance=reviews)
             form.save()
-            messages.success(request, 'Thank you! Your review has been updated.')
-            return redirect(url)
+            
+            return redirect('product')
+
         except ReviewRating.DoesNotExist:
             form = ReviewForm(request.POST)
             if form.is_valid():
@@ -162,5 +162,6 @@ def submit_review(request, product_id):
                 data.product_id = product_id
                 data.user_id = request.user.id
                 data.save()
-                messages.success(request, 'Thank you! Your review has been submitted.')
-                return redirect(url)
+                
+                return redirect('product')
+    return render(request, 'product/product.html', {'product': product})
