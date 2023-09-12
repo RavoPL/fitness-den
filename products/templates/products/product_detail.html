@@ -111,25 +111,18 @@
     <div class="w-full">
         <h3 class="logo-font">Reviews</h3>
         {% if request.user.is_authenticated %}
-            <form method="POST" action=".">
+            <form method="POST" action="">
+                <h5>Type Your Review Below</h5>
                 {% csrf_token %}
-                <div>
-                    <label>Rating</label><br>
-                    <select name="rating">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3" selected>3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-                </div>
-                <div>
-                    <label>Comment</label><br>
-                    <textarea name="content"></textarea>
-                </div>
-                <div>
-                    <button>Submit</button>
-                </div>
+                <!-- Star Ratings Will Go Here -->
+                Review Title:
+                <input type="text" class="form-control" name="subject">
+                <br>
+                Review:
+                <textarea name="review" class="form-control" rows="5"></textarea>
+                <br>
+                <input type="submit" value="Submit Review" class="btn btn-primary">
+                <br>
             </form>
         {% endif%}
     </div>
