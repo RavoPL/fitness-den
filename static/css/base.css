@@ -107,6 +107,20 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+.footer-section {
+    background-color: white;
+}
+
+.footer-titles {
+    color: #000 !important;
+    border: 1px solid black;
+}
+
+.social-media {
+    color: #000 !important;
+    text-decoration: none;
+}
+
 /* -------------------------------- Bootstrap Toasts */
 
 .message-container {
