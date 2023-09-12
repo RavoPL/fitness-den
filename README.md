@@ -62,6 +62,8 @@ I followed the *Agile Methodology* when developing user stories and all of them 
 
 ## Design
 
+![Image of My Facebook Business Mock-Up Page](media/FacebookMockup.png)
+
 N/A - colours, fonts and wireframes
 
 ## Data Models
@@ -221,3 +223,6 @@ After the repository is forked, you can deploy it by following these steps:
 * [Creatine, Whey and New Arrivals Pictures](https://evergreen.ie/)
 * [Aminoacid and Deals Pictures](https://www.hollandandbarrett.ie/)
 * [Equipment and Clearance Pictures](https://www.streetgains.eu/)
+* [Gym Equipment Vectors for FB Mock-Up by macrovector](https://www.freepik.com/free-vector/dumbbells-barbells-weight-fitness_3949273.htm#query=dumbbell&position=5&from_view=keyword&track=sph#position=5&query=dumbbell)
+* [Artist Vector for FB Mock-Up by pollarize](https://www.freepik.com/premium-vector/brush-palette-icon-watercolor-logo-design_18538075.htm#query=artist%20logo&position=34&from_view=keyword&track=ais)
+* [Web Design Vector for FB Mock-Up by ferart88](https://stock.adobe.com/ie/search?k=%22web+design+logo%22&asset_id=85732813)
