@@ -10,6 +10,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
+if os.path.exists("env.py"):
+  import env
+
 import dj_database_url
 from pathlib import Path
 
@@ -24,8 +27,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = 'True'
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = 'True'
+# DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['8000-ravopl-fitnessden-bcfr6ponxjq.ws-eu104.gitpod.io', 'localhost', 'fitness-den-01445db6e33a.herokuapp.com']
 

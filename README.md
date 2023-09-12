@@ -9,7 +9,7 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 
 ## Contents
 1. [User Experience](#user-experience)
-2. [Planning](#planning)
+2. [Design](#Design)
 3. [Data Models](#data-models)
 4. [Features](#features)
 5. [Technologies Used](#technologies-used)
@@ -60,7 +60,7 @@ For the purpose of this project I have created a list of fitting user and admin 
 
 I followed the *Agile Methodology* when developing user stories and all of them are available on a separate Project board as well.
 
-## Planning
+## Design
 
 N/A - colours, fonts and wireframes
 
