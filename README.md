@@ -49,6 +49,7 @@ For the purpose of this project I have created a list of fitting user and admin 
 * As a **site user** I can **receive a confirmation e-mail after registration** so that **I can approve my profile**.
 * As a **site user** I can **have a personalized user profile** so that **I can view my order history, order confirmations, as well as save and edit my personal payment information**.
 * As a **site user** I can **subscribe to a monthly newsletter** so that **I can stay in touch with the store and be informed of new products**.
+* As a **site user** I can **leave reviews on products** so that **I can let the merchant know my feedback**.
 
 ### User Stories - Purchases
 
@@ -64,15 +65,42 @@ I followed the *Agile Methodology* when developing user stories and all of them 
 
 ## Design and Business Model
 
+### Design
+
+N/A - colours, fonts and wireframes
+
 ### Facebook 'Fitness Den' Mock-Up
 
 ![Image of My Facebook Business Mock-Up Page](media/FacebookMockup.png)
 
-N/A - colours, fonts and wireframes
+### Business Model, Marketing and Search Engines
+
+*The Fitness Den* will follow a *product selling* business model in line with the **B2C** (*Business-to-Consumer*) philosophy, where the company and consumer will engage in commercial activity. The exact type of B2C that my fictional store will follow is **E-Commerce**, its biggest sector, encompassing all sorts of online stores, including my one.
+
+The *marketing options* I have settled on are a mock-up of a **fictional Facebook business page** and the option to sign into a **monthly newsletter** ran by MailChimp. Moreover, I have also included **dummy social media links** in my footer, as well as my personal and real social media links.
+
+I followed the Code Institute tutorial on *Search Engine Optimization* and created **robots.txt** and **sitemap.xml** files. Additionally I included two small **information boxes** in the footer which included **keywords** which have a chance to be picked up by any search engine of choice, while not being flagged as spam and filler.
+
+### Marketing Types Challenge - Questions and Answers
+
+1. Who are your users?
+    * Fitness enthusiasts, health freaks, aspiring calisthenics gymnasts and bodybuilding fanatics.
+2. Which online platforms would you find lots of your users?
+    * YouTube, TikTok, Instagram, Reddit, online forums dedicated to fitness and personal wellbeing, 4chan, possibly Facebook as well.
+3. Would your users use social media? If yes, which platforms do you think you would find them on?
+    * Most definitely. Fitness gets a lot of traction on the social media I mentioned in the previous point. The introduction of 'Shorts' has been giving the fitness community a huge boost as well in recent years.
+4. What do your users need? Could you meet that need with useful content? If yes, how could you best deliver that content to them?
+    * My site users and customers would certainly need smooth website navigation, easy checkouts, a wide range of products, secure transactions and competitive prices. I'm confident I could deliver that content by having a clean UI, a fast website and a selection of the most popular products at fair prices.
+5. Would your business run sales or offer discounts? How do you think your users would most like to hear about these offers?
+    * It would, yes. I imagine my users would most like to hear about these offers by subscribing to a monthly newsletter so they're always kept up to date through their e-mails. Alternatively a social media presence - such as the Facebook mock-up - could work really well for shop stock updates.
+6. What are the goals of your business? Which marketing strategies would offer the best ways to meet those goals?
+    * We aim to revolutionize the digital fitness e-commerce sector. The best marketing strategies to meet those goals would be a significant and active social media presence, a clean and well functioning website, as well frequent discounts, deals and other offers.
+7. Would your business have a budget to spend on advertising? Or would it need to work with free or low cost options to market itself?
+    * It depends on how big it became. Initially it would be free, 'homemade' advertising or low cost options. Nowadays we live in an era where you can make it big if you're smart about how you use social media and observe the current trends. YouTube, TikTok and Instagram shorts have really changed the game in recent months.
 
 ## Data Models
 
-N/A - custom models
+Custom *Product Review* model - **WORK IN PROGRESS** - following tutorials by Rathan Kumar and Code with Stein
 
 ## Features
 
@@ -220,6 +248,8 @@ After the repository is forked, you can deploy it by following these steps:
 * *Code Institute* for the CI Full Template on GitHub
 * *Code Institute* for the deployment terminal on Heroku
 * *Code Institute* for *Boutique Ado*
+* [Django Ecommerce Website | Htmx and Tailwind | by Code With Stein](https://www.youtube.com/watch?v=8iCqlFyFu2s)
+* [Review and Rating System in Django Python by Rathan Kumar](https://www.youtube.com/watch?v=eIN1nZCt7Ww)
 
 ### Media
 
