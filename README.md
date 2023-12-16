@@ -415,11 +415,79 @@ N/A - all the features of the webpage, explained
 
 ##### Testing of Purchases
 
-N/A
+<br>
+
+1. *As a site user I can easily select the quantity and size of product so that I can purchase an item I desire.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Quantity and Size | User can chose quantity or size of available items | Selected different quantities | Works as Intended |
+
+<br>
+
+<br>
+
+2. *As a site user I can views the items I currently have in my bag so that I can identify the total cost of my purchase as well as the items I will receive.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| View Shopping Bag | User can view the shopping bag to get more information | Viewed shopping bag | Works as Intended |
+
+<br>
+
+<br>
+
+3. *As a site user I can adjust the quantity of items in my shopping bag so that I can make changes to my purchase before checkout.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Adjust Quantity of Item in Bag | User can change the item quantity within the bag | Adjusted quantity | Works as Intended |
+
+<br>
+
+<br>
+
+4. *As a site user I can enter my payment information so that checkout quickly.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Save Payment Information and Load into Bag | User can quickly load payment info | Loaded saved payment information on checkout | Works as Intended |
+
+<br>
+
+5. *As a site user I can be certain that my personal and payment information are safe so that I can confidently provide sensitive information to make a purchase.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Secure Personal and Payment Information | User can feel safe and secure | Payment and personal information saved securely | Works as Intended |
+
+<br>
+
+<br>
+
+6. *As a site user I can view an order after I checkout so that I can verify I haven't made any mistakes.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Order View after Checkout | User can view order details after checkout | Made test order and viewed details post-checkout | Works as Intended |
+
+<br>
+
+<br>
+
+7. *As a site user I can receive an e-mail confirmation after I checkout so that I can be sure my payment went through and so I can keep a record.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| E-Mail Confirmation after Checkout | User receives order confirmation through e-mail | Made test order | **CURRENTLY BROKEN** |
+
+<br>
 
 ## Known Bugs
 
-N/A - bugs which are known and still unfixed
+**E-Mails and Registration** - Registration is not possible because e-mails aren't sent out; confirmation of order through e-mail likewise isn't working. Not sure if newsletter subscription is possible.
+
+**Custom Model Database Crash** - Admin panel crashes because custom model hasn't had its migrations made yet (I assume).
 
 ## Deployment
 
