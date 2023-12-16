@@ -34,6 +34,9 @@ Developed by **Dorian Wolarz**, a Code Institute Student
     - [Manual Testing of Admin and User Stories](#manual-testing-of-admin-and-user-stories)
         - [Admin Stories Testing](#admin-stories-testing)
         - [User Stories Testing](#user-stories-testing)
+            - [Testing of Navigation](#testing-of-navigation)
+            - [Testing of Accounts and Management](#testing-of-accounts-and-management)
+            - [Testing of Purchases](#testing-of-purchases)
 8. [Known Bugs](#known-bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
@@ -196,7 +199,7 @@ N/A - all the features of the webpage, explained
 
 <br>
 
-1. *As a site admin I can add a product so that I can increase the stocks in my store*
+1. *As a site admin I can add a product so that I can increase the stocks in my store.*
 
 | **Feature**  | **Expected Result** | **Action Taken** | **Result** |
 | ------------- | ------------- | ------------- | ------------- |
@@ -239,6 +242,110 @@ N/A - all the features of the webpage, explained
 <br>
 
 #### User Stories Testing
+
+##### Testing of Navigation
+
+<br>
+
+1. *As a site user I can view a list of products so that I can purchase items.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Products List | Products can be viewed from home page | Accessed products list on home page | Works as Intended |
+
+<br>
+
+<br>
+
+2. *As a site user I can identify the price, description, product rating and other details so that I can purchase a product to my liking.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Price | Price of a product can be seen by the client | Accessed product page to display price of product | Works as Intended |
+| Description | Description of a product can be read by the client | Accessed product page to display description of product | Works as Intended |
+| Product Rating | Rating of a product can be seen by the client | Accessed product page to display rating of product | Works as Intended |
+
+<br>
+
+<br>
+
+3. *As a site user I can identify deals, clearance items and special offers so that I can make the purchases I want.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| New Arrivals | The client can display a list of new arrivals | Accessed the New Arrivals page to display products | Works as Intended |
+| Deals | The client can display a list of deals | Accessed the Deals page to display products | Works as Intended |
+| Clearance | The client can display a clearance list | Accessed the Clearance page to display products | Works as Intended |
+
+<br>
+
+<br>
+
+4. *As a site user I can view the total purchases so that I can avoid spending funds beyond my budget.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| View Total Purchases | User can see total purchases outside the cart | A pop up displays with total purchase amount | Works as Intended |
+
+<br>
+
+<br>
+
+5. *As a site user I can sort the list of available products so that I can identify best rated and best priced items.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Sorting Products | User can sort available products | Products sorted by Price, Rating or Category | Works as Intended |
+
+<br>
+
+<br>
+
+6. *As a site user I can sort a specific category of product so that I can find the best deals in the category I'm interested in.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Sorting Specific Products | User can sort a specific product category | Any product category can be sorted by Price, Rating, Name, etc. | Works as Intended |
+
+<br>
+
+<br>
+
+7. *As a site user I can sort multiple categories simultaneously so that I can find best offers across multiple categories.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Sorting Multiple Categories | User can sort multiple categories of products | Multiple categories can be sorted by Price, Rating, Name, etc. | Works as Intended |
+
+<br>
+
+<br>
+
+8. *As a site user I can search for a product by name or description so that I can easily find what I'm looking for.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Search Bar | User can search for any product | Searched for product by name or description | Works as Intended |
+
+<br>
+
+<br>
+
+9. *As a site user I can access search bar results so that I can quickly decide whether the product I want to purchase is available.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Search Bar Results | User can access any search result | Searched for product by name or description and accessed product | Works as Intended |
+
+<br>
+
+##### Testing of Accounts and Management
+
+N/A
+
+##### Testing of Purchases
+
+N/A
 
 ## Known Bugs
 
