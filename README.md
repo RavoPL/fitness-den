@@ -27,6 +27,13 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 5. [Features](#features)
 6. [Technologies Used](#technologies-used)
 7. [Testing and Validation](#testing-and-validation)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+    - [Python Validation](#python-validation)
+    - [Accessibility and Performance](#accessibility-and-performance)
+    - [Manual Testing of Admin and User Stories](#manual-testing-of-admin-and-user-stories)
+        - [Admin Stories Testing](#admin-stories-testing)
+        - [User Stories Testing](#user-stories-testing)
 8. [Known Bugs](#known-bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
@@ -175,7 +182,63 @@ N/A - all the features of the webpage, explained
 
 ## Testing and Validation
 
-N/A - all the testing and validation of code and functions of the website
+### HTML Validation
+
+### CSS Validation
+
+### Python Validation
+
+### Accessibility and Performance
+
+### Manual Testing of Admin and User Stories
+
+#### Admin Stories Testing
+
+<br>
+
+1. *As a site admin I can add a product so that I can increase the stocks in my store*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Add a Product | A product can be added from admin view | Entered admin view and added a product | Works as Intended |
+
+<br>
+
+<br>
+
+2. *As a site admin I can edit and update existing products so that I can make real time changes to my stocks.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Edit a Product | An existing product can be edited from admin and front view | Edited a product | Works as Intended |
+| Update a Product | An existing product can be updated from admin and front view | Updated a product | Works as Intended |
+
+<br>
+
+<br>
+
+3. *As a site admin I can delete a product so that I can remove an existing item from the listings.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Delete a Product | An existing product can be removed from admin and front view | Removed a product | **CURRENTLY BROKEN** |
+
+<br>
+
+<br>
+
+4. *As a site admin I can have a footer section with important details so that my clients can contact me, find out more about the store and its mission and sign up to a newsletter.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Contact Section | Footer contains a Contact section | Scrolled to Footer and clicked hyperlinks | Works as Intended |
+| About Us Section | Footer contains an About Us section | Scrolled to Footer and read text | Works as Intended |
+| Our Mission Section | Footer contains an Our Mission section | Scrolled to Footer and read text | Works as Intended |
+| Newsletter Section | Footer contains a monthly newsletter section | Scrolled to Footer and subscribed to newsletter | Works as Intended |
+
+<br>
+
+#### User Stories Testing
 
 ## Known Bugs
 
