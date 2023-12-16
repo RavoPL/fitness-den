@@ -347,7 +347,7 @@ N/A - all the features of the webpage, explained
 
 | **Feature**  | **Expected Result** | **Action Taken** | **Result** |
 | ------------- | ------------- | ------------- | ------------- |
-| Register an Account | Website visitor can become a registered user | Filled in the registration form | **CURRENTLY BROKEN** |
+| Register an Account | Website visitor can become a registered user | Filled in the registration form | Works as Intended |
 
 <br>
 
@@ -367,7 +367,7 @@ N/A - all the features of the webpage, explained
 
 | **Feature**  | **Expected Result** | **Action Taken** | **Result** |
 | ------------- | ------------- | ------------- | ------------- |
-| Password Recovery | Registered user can reset his password | Clicked 'Forgot Password' on Log in page | **CURRENTLY BROKEN** |
+| Password Recovery | Registered user can reset his password | Clicked 'Forgot Password' on Log in page | Works as Intended |
 
 <br>
 
@@ -377,7 +377,7 @@ N/A - all the features of the webpage, explained
 
 | **Feature**  | **Expected Result** | **Action Taken** | **Result** |
 | ------------- | ------------- | ------------- | ------------- |
-| Confirmation E-Mail | New user receives registration confirmation e-mail | Registered an account | **CURRENTLY BROKEN** |
+| Confirmation E-Mail | New user receives registration confirmation e-mail | Registered an account | Works as Intended |
 
 <br>
 
@@ -399,7 +399,7 @@ N/A - all the features of the webpage, explained
 
 | **Feature**  | **Expected Result** | **Action Taken** | **Result** |
 | ------------- | ------------- | ------------- | ------------- |
-| Subscribe to Newsletter | Logged user can subscribe to a monthly newsletter | Scrolled to Footer and subscribed to newsletter | **CURRENTLY BROKEN** |
+| Subscribe to Newsletter | Logged user can subscribe to a monthly newsletter | Scrolled to Footer and subscribed to newsletter | Works as Intended |
 
 <br>
 
@@ -485,7 +485,7 @@ N/A - all the features of the webpage, explained
 
 ## Known Bugs
 
-**E-Mails and Registration** - Registration is not possible because e-mails aren't sent out; confirmation of order through e-mail likewise isn't working. Not sure if newsletter subscription is possible.
+**E-Mails** - Everything seemts to work except for e-mail confirmation after payment.
 
 **Custom Model Database Crash** - Admin panel crashes because custom model hasn't had its migrations made yet (I assume).
 
