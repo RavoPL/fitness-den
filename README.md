@@ -1,22 +1,55 @@
 # The Fitness Den
 Developed by **Dorian Wolarz**, a Code Institute Student
 
-*The Fitness Den is a Full Stack fitness website. Users can create personal accounts and purchase fitness products.*
+*The Fitness Den is a Full Stack fitness website. Users can create personal accounts and purchase fitness products. In a general sense it will be an online store for your average fitness fanatic.*
 
 [LINK TO HEROKU VERSION](https://fitness-den-01445db6e33a.herokuapp.com/)
 
 ![The Fitness Den on a PC](N/A)
 
 ## Contents
-1. [User Experience](#user-experience)
-2. [Design and Business Model](#design-and-business-model)
-3. [Data Models](#data-models)
-4. [Features](#features)
-5. [Technologies Used](#technologies-used)
-6. [Testing and Validation](#testing-and-validation)
-6. [Known Bugs](#known-bugs)
-8. [Deployment](#deployment)
-9. [Credits](#credits)
+1. [Project Goals](#project-goals)
+    - [User Goals](#user-goals)
+    - [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    - [Admin Stories](#admin-stories)
+    - [User Stories - Navigation](#user-stories---navigation)
+    - [User Stories - Accounts and Management](#user-stories---accounts-and-management)
+    - [User Stories - Purchases](#user-stories---purchases)
+3. [Design and Business Model](#design-and-business-model)
+    - [Design](#design)
+    - [Facebook 'Fitness Den' Mock Up](#facebook-fitness-den-mock-up)
+    - [Business Model, Marketing and Search Engines](#business-model-marketing-and-search-engines)
+    - [Marketing Types Challenge - Questions and Answers](#marketing-types-challenge---questions-and-answers)
+    - [Structure](#structure)
+    - [Wireframes](#wireframes)
+4. [Data Models](#data-models)
+5. [Features](#features)
+6. [Technologies Used](#technologies-used)
+7. [Testing and Validation](#testing-and-validation)
+8. [Known Bugs](#known-bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+
+## Project Goals
+
+### User Goals
+
+* Easily navigate across a clean user interface.
+* Register an account. Log in and out. Receive confirmation e-mails.
+* View a list of products, their descriptions, ratings, pricing and other details. Leave reviews on products.
+* Identify special deals and clearance items.
+* Sort existing available products by categories. Search for products by name and description.
+* Access my shopping cart, see my order history, securely save and edit my personal payment information.
+* Subscribe to a monthly newsletter.
+* Select the quantity of a product, adjusting the quantity in the shopping cart, view an order and e-mail confirmation after checkout.
+
+### Site Owner Goals
+
+* Facilitate a solid, pleasurable browsing experience for new customers and allow them to make secure purchases on my website.
+* Promote user engagement by making a clear-to-navigate UI where users can see all the relevant products.
+* Add and delete products, as well as edit and update existing products so real time changes can be made to my stocks.
+* Have a footer section with all the important details so clients can contact through e-mail and socials, find out more about the store and sign up to a newsletter.
 
 ## User Experience
 
@@ -97,6 +130,14 @@ I followed the Code Institute tutorial on *Search Engine Optimization* and creat
     * We aim to revolutionize the digital fitness e-commerce sector. The best marketing strategies to meet those goals would be a significant and active social media presence, a clean and well functioning website, as well frequent discounts, deals and other offers.
 7. Would your business have a budget to spend on advertising? Or would it need to work with free or low cost options to market itself?
     * It depends on how big it became. Initially it would be free, 'homemade' advertising or low cost options. Nowadays we live in an era where you can make it big if you're smart about how you use social media and observe the current trends. YouTube, TikTok and Instagram shorts have really changed the game in recent months.
+
+### Structure
+
+N/A
+
+### Wireframes
+
+N/A
 
 ## Data Models
 
