@@ -341,7 +341,77 @@ N/A - all the features of the webpage, explained
 
 ##### Testing of Accounts and Management
 
-N/A
+<br>
+
+1. *As a site user I can easily register a user account so that I can have access to my personal profile.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Register an Account | Website visitor can become a registered user | Filled in the registration form | **CURRENTLY BROKEN** |
+
+<br>
+
+<br>
+
+2. *As a site user I can log in and out of my profile so that I can access my personal account information.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Log in and Out | Registered user can Log in and Out of his account | Logged in and Logged out | Works as Intended |
+
+<br>
+
+<br>
+
+3. *As a site user I can safely recover my password in case I forget it.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Password Recovery | Registered user can reset his password | Clicked 'Forgot Password' on Log in page | **CURRENTLY BROKEN** |
+
+<br>
+
+<br>
+
+4. *As a site user I can receive a confirmation e-mail after registration so that I can approve my profile.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Confirmation E-Mail | New user receives registration confirmation e-mail | Registered an account | **CURRENTLY BROKEN** |
+
+<br>
+
+<br>
+
+5. *As a site user I can have a personalized user profile so that I can view my order history, order confirmations, as well as save and edit my personal payment information.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| View Order History | Logged user can see his complete order history | Accessed profile and viewed history | Works as Intended |
+| Order Confirmations | Logged user can see an order confirmation | Accessed profile and confirmed order | Works as Intended |
+| Save and Edit Payment Information | Logged user can save and edit payment info | Edited and saved user payment information | Works as Intended |
+
+<br>
+
+<br>
+
+6. *As a site user I can subscribe to a monthly newsletter so that I can stay in touch with the store and be informed of new products.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Subscribe to Newsletter | Logged user can subscribe to a monthly newsletter | Scrolled to Footer and subscribed to newsletter | **CURRENTLY BROKEN** |
+
+<br>
+
+<br>
+
+7. *As a site user I can leave reviews on products so that I can let the merchant know my feedback.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Leave a Review | Logged user can leave a review on a product | Accessed a product and left a review | **CURRENTLY BROKEN** |
+
+<br>
 
 ##### Testing of Purchases
 
