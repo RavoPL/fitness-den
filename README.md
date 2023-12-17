@@ -485,7 +485,7 @@ N/A - all the features of the webpage, explained
 
 ## Known Bugs
 
-**E-Mails** - Everything seemts to work except for e-mail confirmation after payment.
+**E-Mails** - Everything seems to work except for e-mail confirmation after payment.
 
 **Custom Model Database Crash** - Admin panel crashes because custom model hasn't had its migrations made yet (I assume).
 
