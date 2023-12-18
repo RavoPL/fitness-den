@@ -7,7 +7,7 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     /* below color applies to all extra fonts for now */
-    color: black;
+    color: #ffffff;
 }
 
 /* from Bulma */
@@ -25,6 +25,12 @@ body {
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: -2px;
+    color: #ffffff;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
 
 /* styling of the main slogan */
@@ -38,6 +44,7 @@ body {
 /* styling of the delivery information banner */
 .delivery-banner {
     font-family: 'Teko', Arial, Helvetica, sans-serif;
+    color: #000;
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -49,15 +56,32 @@ body {
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: #ffffff !important;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/* styling of the whole top nav bar */
+.top-color {
+    background-color: #003366 !important;
+}
+
+.navbar-toggler, .navbar-toggler-icon {
+    color: white !important;
 }
 
 /* general text styling */
 h1, h2 {
     font-family: 'Graduate', Arial, Helvetica, sans-serif;
+    color: #ffffff;
 }
 
 h3, h4, h5, h6 {
     font-family: 'Teko', Arial, Helvetica, sans-serif;
+    color: #ffffff;
 }
 
 /* black outline around white text on main page */
@@ -75,7 +99,7 @@ h3, h4, h5, h6 {
 }
 
 .shop-now-button {
-    background: black;
+    background: #003366;
     color: white;
     min-width: 260px;
     font-size: 2rem;
@@ -99,7 +123,7 @@ h3, h4, h5, h6 {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: #c0c0c0;
     color: white;
 }
 
@@ -121,7 +145,7 @@ h3, h4, h5, h6 {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: #003366;
 	z-index: -1;
 }
 
@@ -147,16 +171,16 @@ input[name='q']::placeholder {
 }
 
 .footer-section {
-    background-color: white;
+    background-color: #003366;
 }
 
 .footer-titles {
-    color: #000 !important;
-    border: 1px solid black;
+    color: #ffffff !important;
+    border: 1px solid #ffffff;
 }
 
 .social-media {
-    color: #000 !important;
+    color: #ffffff !important;
     text-decoration: none;
 }
 
