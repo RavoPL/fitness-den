@@ -5,7 +5,7 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 
 from .models import Product, Category, ReviewRating
-from .forms import ProductForm
+from .forms import ProductForm, ReviewForm
 
 # Create your views here.
 
@@ -141,15 +141,17 @@ def delete_product(request, product_id):
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
 
-# submit Review section - from Rathan Kumar
+# submit Review section - from Rathan Kumar - edited by me
 def submit_review(request, product_id):
+    url = request.META.get('HTTP_REFERER')
     if request.method == 'POST':
         try:
             reviews = ReviewRating.objects.get(user_id=request.user.id, product_id=product_id)
             form = ReviewForm(request.POST, instance=reviews)
             form.save()
+            messages.success(request, 'Thank you! Your review has been updated.')
             
-            return redirect('product')
+            return redirect(url)
 
         except ReviewRating.DoesNotExist:
             form = ReviewForm(request.POST)
@@ -162,6 +164,6 @@ def submit_review(request, product_id):
                 data.product_id = product_id
                 data.user_id = request.user.id
                 data.save()
+                messages.success(request, 'Thank you! Your review has been submitted!')
                 
-                return redirect('product')
-    return render(request, 'product/product.html', {'product': product})
+                return redirect(url)
