@@ -143,10 +143,11 @@ def delete_product(request, product_id):
 
 # submit Review section - from Rathan Kumar - edited by me
 def submit_review(request, product_id):
+    # reviews = ReviewRating.objects.filter(product__id=product.id, status=True)
     url = request.META.get('HTTP_REFERER')
     if request.method == 'POST':
         try:
-            reviews = ReviewRating.objects.get(user_id=request.user.id, product_id=product_id)
+            reviews = ReviewRating.objects.get(user__id=request.user.id, product__id=product_id)
             form = ReviewForm(request.POST, instance=reviews)
             form.save()
             messages.success(request, 'Thank you! Your review has been updated.')
