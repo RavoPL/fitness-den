@@ -110,7 +110,7 @@ I followed the *Agile Methodology* when developing user stories and all of them 
 
 ### Design
 
-N/A - colours, fonts and wireframes
+N/A - fonts (Graduate and Teko with Arial, Helvetica, sans-serif as back-up)
 
 ### Facebook 'Fitness Den' Mock-Up
 

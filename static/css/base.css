@@ -80,6 +80,10 @@ h3, h4, h5, h6 {
     color: black;
 }
 
+.footer-container p, .creator-container p {
+    color: #e0e0e0;
+}
+
 /* black outline around white text on main page */
 .text-outline {
     color: white;
