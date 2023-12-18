@@ -67,8 +67,11 @@ def product_detail(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
 
+    reviews = ReviewRating.objects.filter(product_id=product_id, status=True)
+
     context = {
         'product': product,
+        'reviews': reviews,
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -143,7 +146,6 @@ def delete_product(request, product_id):
 
 # submit Review section - from Rathan Kumar - edited by me
 def submit_review(request, product_id):
-    # reviews = ReviewRating.objects.filter(product__id=product.id, status=True)
     url = request.META.get('HTTP_REFERER')
     if request.method == 'POST':
         try:
