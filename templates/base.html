@@ -16,7 +16,7 @@
 
     {% block corecss %}
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Graduate&family=Lato:ital,wght@1,100&family=Teko&display=swap">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
         <!-- MailChimp -->
         <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
@@ -45,7 +45,7 @@
             <!-- first div -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0"><strong>Fitness</strong> Den</h2>
+                    <h2 class="logo-font text-black my-0">Fitness <strong>Den</strong></h2>
                 </a>
             </div>
             <!-- second div -->
@@ -115,7 +115,7 @@
         </div>
         <div id="delivery-banner" class="row text-center">
             <div class="col bg-black text-white">
-                <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
+                <h4 class="delivery-banner my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
             </div>            
         </div>
     </header>

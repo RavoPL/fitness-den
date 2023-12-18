@@ -6,8 +6,8 @@ body {
     background: url('/media/pics/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato';
+    /* below color applies to all extra fonts for now */
+    color: black;
 }
 
 /* from Bulma */
@@ -19,8 +19,45 @@ body {
     width: 1.5rem;
 }
 
+/* styling of the Fitness Den logo */
 .logo-font {
+    font-family: 'Graduate', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
     text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+/* styling of the main slogan */
+.index-text {
+    font-family: 'Graduate', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+/* styling of the delivery information banner */
+.delivery-banner {
+    font-family: 'Teko', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* styling of the main navbar headings */
+.navbar-styling {
+    font-family: 'Teko', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* general text styling */
+h1, h2 {
+    font-family: 'Graduate', Arial, Helvetica, sans-serif;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Teko', Arial, Helvetica, sans-serif;
 }
 
 /* black outline around white text on main page */
@@ -41,6 +78,8 @@ body {
     background: black;
     color: white;
     min-width: 260px;
+    font-size: 2rem;
+    outline-style: ridge;
 }
 
 .btn-black {
@@ -402,7 +441,7 @@ ul.thumb li img {
     }
 
     #delivery-banner h4 {
-        font-size: .9rem;
+        font-size: 1.5rem;
     }
 
     .btn.btn-outline-black.rounded-0,
