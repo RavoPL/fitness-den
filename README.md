@@ -93,6 +93,7 @@ For the purpose of this project I have created a list of fitting user and admin 
 * As a **site user** I can **have a personalized user profile** so that **I can view my order history, order confirmations, as well as save and edit my personal payment information**.
 * As a **site user** I can **subscribe to a monthly newsletter** so that **I can stay in touch with the store and be informed of new products**.
 * As a **site user** I can **leave reviews on products** so that **I can let the merchant know my feedback**.
+* As a **site user** I can **access a contact form** and send a **confidential message directly to the admin**.
 
 ### User Stories - Purchases
 
@@ -151,7 +152,9 @@ N/A
 
 ## Data Models
 
-Custom *Product Review* model - **WORK IN PROGRESS** - following tutorials by Rathan Kumar and Code with Stein
+Custom *Product Review* model - **FINISHED** - following tutorials by Rathan Kumar and Code with Stein
+
+Custom *Contact Form* model - **FINISHED**
 
 ## Features
 
@@ -224,7 +227,7 @@ N/A - all the features of the webpage, explained
 
 | **Feature**  | **Expected Result** | **Action Taken** | **Result** |
 | ------------- | ------------- | ------------- | ------------- |
-| Delete a Product | An existing product can be removed from admin and front view | Removed a product | **CURRENTLY BROKEN** |
+| Delete a Product | An existing product can be removed from admin and front view | Removed a product | Works as Intended |
 
 <br>
 
@@ -409,7 +412,17 @@ N/A - all the features of the webpage, explained
 
 | **Feature**  | **Expected Result** | **Action Taken** | **Result** |
 | ------------- | ------------- | ------------- | ------------- |
-| Leave a Review | Logged user can leave a review on a product | Accessed a product and left a review | **CURRENTLY BROKEN** |
+| Leave a Review | Logged user can leave a review on a product | Accessed a product and left a review | Works as Intended |
+
+<br>
+
+<br>
+
+8. *As a site user I can access a contact form and send a confidential message directly to the admin.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Contact Form | Logged user can send a message to admin | Accessed the Contact Form from navbar and submitted a test message | Works as Intended |
 
 <br>
 
@@ -486,8 +499,6 @@ N/A - all the features of the webpage, explained
 ## Known Bugs
 
 **E-Mails** - Everything seems to work except for e-mail confirmation after payment.
-
-**Custom Model Database Crash** - Admin panel crashes because custom model hasn't had its migrations made yet (I assume).
 
 ## Deployment
 
@@ -612,3 +623,4 @@ After the repository is forked, you can deploy it by following these steps:
 
 ### Acknowledgements
 * Huge thanks to the wonderful *Code Institute* community over at Slack for all the help I needed with my project, especially *Chris W Alumnus* and *Roman Rakic*.
+* Huge thanks to *Gideon* who helped me immensely with understanding certain aspects of Python.
