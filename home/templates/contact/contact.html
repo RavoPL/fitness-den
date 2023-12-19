@@ -17,10 +17,9 @@
                 <hr>
                 <h2 class="logo-font mb-4 text-center">Contact Form</h2>
                 <hr>
-                <br>
                 <div class="w-full">
                     {% if request.user.is_authenticated %}
-                        <form method="POST" action="">
+                        <form method="POST" action="{% url 'submit_contact' %}">
                             {% csrf_token %}
                             <br>
                             Message Title:
