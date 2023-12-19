@@ -17,6 +17,26 @@
                 <hr>
                 <h2 class="logo-font mb-4 text-center">Contact Form</h2>
                 <hr>
+                <br>
+                <div class="w-full">
+                    {% if request.user.is_authenticated %}
+                        <form method="POST" action="">
+                            {% csrf_token %}
+                            <br>
+                            Message Title:
+                            <input type="text" class="form-control" name="subject">
+                            <br>
+                            <br>
+                            Message:
+                            <textarea name="review" class="form-control" rows="5"></textarea>
+                            <br>
+                            <input type="submit" value="Submit Message" class="btn btn-black">
+                            <br>
+                        </form>
+                    {% else %}
+                    <p>You must be logged in to send a message. <span><a href="{% url 'account_login' %}">Log in now by clicking here!</a></span></p>
+                    {% endif%}
+                </div>
             </div>
         </div>
     </div>
