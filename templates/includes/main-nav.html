@@ -9,7 +9,7 @@
             <a class="navbar-styling font-weight-bold nav-link mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+            <div class="dropdown-menu" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
@@ -21,7 +21,7 @@
             <a class="navbar-styling font-weight-bold nav-link mr-5" href="#" id="supplements-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Supplements
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="supplements-link">
+            <div class="dropdown-menu" aria-labelledby="supplements-link">
                 <a href="{% url 'products' %}?category=creatine" class="dropdown-item">Creatine</a>
                 <a href="{% url 'products' %}?category=whey" class="dropdown-item">Whey</a>
                 <a href="{% url 'products' %}?category=aminoacids" class="dropdown-item">Aminoacids</a>
@@ -33,7 +33,7 @@
             <a class="navbar-styling font-weight-bold nav-link mr-5" href="#" id="equipment-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Equipment
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="equipment-link">
+            <div class="dropdown-menu" aria-labelledby="equipment-link">
                 <a href="{% url 'products' %}?category=pullupbars" class="dropdown-item">Pull Up Bars</a>
                 <a href="{% url 'products' %}?category=parallettes" class="dropdown-item">Parallettes</a>
                 <a href="{% url 'products' %}?category=weightedvests" class="dropdown-item">Weighted Vests</a>
@@ -44,12 +44,18 @@
             <a class="navbar-styling font-weight-bold nav-link mr-5" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+            <div class="dropdown-menu" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
                 <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
                 <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
                 <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="navbar-styling font-weight-bold nav-link mr-5" href="{% url 'home' %}" id="home-link">
+                Contact Form
+            </a>
         </li>
     </ul>
 </div>
