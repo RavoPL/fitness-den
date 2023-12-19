@@ -8,3 +8,5 @@ class ContactAdmin(admin.ModelAdmin):
         'user',
         'subject',
     )
+
+admin.site.register(SendContact, ContactAdmin)

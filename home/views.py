@@ -31,5 +31,7 @@ def submit_contact(request):
             data.message = form.cleaned_data['message']
             data.save()
             messages.success(request, 'Thank you! Your message has been sent!')
+        else:
+            messages.success(request, form.errors)
                 
-            return redirect(url)
+        return redirect(url)
