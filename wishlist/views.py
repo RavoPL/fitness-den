@@ -17,12 +17,13 @@ def view_wishlist(request, user_id):
 def add_to_wishlist(request, item_id, user_id):
     """ Add a quantity of the specified product to the wishlist """
 
-    product = get_object_or_404(Product, pk=item_id)
-    redirect_url = request.POST.get('redirect_url')
+    if 'wishlist' in request.POST:
+        product = get_object_or_404(Product, pk=item_id)
+        redirect_url = request.POST.get('redirect_url')
 
-    messages.info(request,'The item was added to your wishlist.')
+        messages.info(request,'The item was added to your wishlist.')
 
-    return redirect(redirect_url)
+        return redirect(redirect_url)
 
 
 # Removing items from the wishlist
