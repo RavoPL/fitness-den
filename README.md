@@ -18,15 +18,15 @@ Developed by **Dorian Wolarz**, a Code Institute Student
     - [User Stories - Purchases](#user-stories---purchases)
 3. [Design and Business Model](#design-and-business-model)
     - [Design](#design)
+    - [Colour and Fonts](#colour-and-fonts)
     - [Facebook 'Fitness Den' Mock Up](#facebook-fitness-den-mock-up)
     - [Business Model, Marketing and Search Engines](#business-model-marketing-and-search-engines)
     - [Marketing Types Challenge - Questions and Answers](#marketing-types-challenge---questions-and-answers)
     - [Structure](#structure)
     - [Wireframes](#wireframes)
 4. [Data Models](#data-models)
-5. [Features](#features)
-6. [Technologies Used](#technologies-used)
-7. [Testing and Validation](#testing-and-validation)
+5. [Technologies Used](#technologies-used)
+6. [Testing and Validation](#testing-and-validation)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
     - [Python Validation](#python-validation)
@@ -37,9 +37,9 @@ Developed by **Dorian Wolarz**, a Code Institute Student
             - [Testing of Navigation](#testing-of-navigation)
             - [Testing of Accounts and Management](#testing-of-accounts-and-management)
             - [Testing of Purchases](#testing-of-purchases)
-8. [Known Bugs](#known-bugs)
-9. [Deployment](#deployment)
-10. [Credits](#credits)
+7. [Known Bugs](#known-bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
 
 ## Project Goals
 
@@ -111,7 +111,17 @@ I followed the *Agile Methodology* when developing user stories and all of them 
 
 ### Design
 
-N/A - fonts (Graduate and Teko with Arial, Helvetica, sans-serif as back-up)
+The webpage was designed with the concept of an online fitness store in mind, hence I decided to call it *"The Fitness Den"* in order to call upon the imagery of heavy weights, good health and a 'den' much like a lion's den. The website is meant to allow the users to purchase a wide range of fitness items, from whey protein to calisthenics parallettes. The chosen artistic direction is meant to be clean, organized and easily navigable. The content of the webpage is neatly divided between collapsible buttons in the case of mobile view and interactive buttons in the case of widescreen view.
+
+### Colour and Fonts
+
+![Image of My Coolors Sample](media/CoolorsSample.png)
+
+Colour tones associated with college and sports were chosen as basis for the colour palette of the webpage. As such, the main colours are the contrasts of berkeley blue and plain white. The complimentary colours chosen were slate grey for tertiary text, plain black for buttons, harvest gold for star rating functionality and an almost turqouise highlight for mouse hover on certain items and key words. My intent behind the design was to call upon a fitting color theme which will make the client think of college, dynamic sports and even a positive play on a stereotype - to a degree - of the high school "jock" so often shown in American movies and other media. This visual style is a nostalgic callback not just to hit pieces like "High School Musical" but also a clear and deliberate attempt at targeting one of the most vital demographics in the fitness industry - the young adults. I made use of modern UI/UX design solutions in order to provide a visually pleasing, clear, accessible and usable webpage.
+
+For the heading, navbar, slogan and all the major secondary fonts I chose *"Graduate"* because it's very clean and creates a very deliberate high school/college image.
+For complimentary text I chose *"Teko"* because it is pleasing to the eye, soft and rounded while still keeping a suitable visual 'edge'.
+*Arial*, *Helvetica* and *Sans-Serif* were chosen as the emergency backup fonts in case the selected ones refuse to load because they're basic fonts that should display without any issues on all devices and software.
 
 ### Facebook 'Fitness Den' Mock-Up
 
@@ -155,10 +165,6 @@ N/A
 Custom *Product Review* model - **FINISHED** - following tutorials by Rathan Kumar and Code with Stein
 
 Custom *Contact Form* model - **FINISHED**
-
-## Features
-
-N/A - all the features of the webpage, explained
 
 ## Technologies Used
 
