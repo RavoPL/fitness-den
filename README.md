@@ -25,6 +25,8 @@ Developed by **Dorian Wolarz**, a Code Institute Student
     - [Structure](#structure)
     - [Wireframes](#wireframes)
 4. [Data Models](#data-models)
+    - [Product Review](#product-review)
+    - [Contact Form](#contact-form)
 5. [Technologies Used](#technologies-used)
 6. [Testing and Validation](#testing-and-validation)
     - [HTML Validation](#html-validation)
@@ -162,9 +164,21 @@ N/A
 
 ## Data Models
 
-Custom *Product Review* model - **FINISHED** - following tutorials by Rathan Kumar and Code with Stein
+### Product Review
 
-Custom *Contact Form* model - **FINISHED**
+Custom *Product Review* model - **FINISHED** - with help of tutorials by Rathan Kumar and Code with Stein, customized, edited and deployed by me
+
+Corresponding to **User Story - Reviews**([#29](https://github.com/RavoPL/fitness-den/issues/29))
+
+![Image of My Product Review Model](media/ReviewModel.png)
+
+### Contact Form
+
+Custom *Contact Form* model - **FINISHED** - made entirely by me
+
+Corresponding to **User Story - Contact Form**([#30](https://github.com/RavoPL/fitness-den/issues/30))
+
+![Image of My Contact Form Model](media/ContactModel.png)
 
 ## Technologies Used
 
@@ -187,6 +201,7 @@ Custom *Contact Form* model - **FINISHED**
 * Crispy Forms *to access and display premade forms on the website*
 * Fontawesome *to access free icons*
 * GoogleFonts *to access different font styles*
+* Coolors *to generate colour palette for ReadMe*
 * ElephantSQL *to serve as a database for Heroku*
 * W3C *to validate HTML and CSS code*
 * CI Python Linter *to validate Python code*
