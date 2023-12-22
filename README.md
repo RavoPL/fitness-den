@@ -100,7 +100,7 @@ For the purpose of this project I have created a list of fitting user and admin 
 ### User Stories - Purchases
 
 * As a **site user** I can **easily select the quantity and size of product** so that **I can purchase an item I desire**.
-* As a **site user** I can **views the items I currently have in my bag** so that **I can identify the total cost of my purchase as well as the items I will receive**.
+* As a **site user** I can **view the items I currently have in my bag** so that **I can identify the total cost of my purchase as well as the items I will receive**.
 * As a **site user** I can **adjust the quantity of items in my shopping bag** so that **I can make changes to my purchase before checkout**.
 * As a **site user** I can **enter my payment information** so that **checkout quickly**.
 * As a **site user** I can **be certain that my personal and payment information are safe** so that **I can confidently provide sensitive information to make a purchase**.
@@ -156,11 +156,24 @@ I followed the Code Institute tutorial on *Search Engine Optimization* and creat
 
 ### Structure
 
-N/A
+The website is structured in a user friendly way that makes navigation of its contents extremely easy and makes it pleasing to the eye. The *Home Page* serves as the central hub of the design, allowing for quick access to other sections of the project through fully interactive buttons. Overall the project is made up of many pages, including but not limited to:
+* **The Home Page**, with its selection of navigational buttons and a collapsible menu for mobile users, as well as its highly informational footer.
+* **The Products Page**, with its long list of available products separated by categories as well as an individual product view with user reviews.
+* **The Contact Page**, with its direct confidential message to admin functionality.
+* **The Shopping Bag Page**, with its easy-to-use shopping bag functionality of adding, adjusting and removing items from the shopping bag.
+* **The Checkout Page**, with the ability to use existing delivery information and finalize any transaction.
+* **The Wishlist Page**, where the user can save products for later purchase.
+* **Profile Page**, with its ability to securely save personal information and access client's order history.
+* **Log In and Log Out Pages**, which allow the clients to register on the page, log in and retrieve their account if password is lost.
+
+*...and many more.*
 
 ### Wireframes
 
-N/A
+<details>
+  <summary>User Stories Flow Chart</summary>
+  <img src="media/FitnessFlowchart.png" alt="Flow Chart of User Stories" title="User Stories Flow Chart">
+</details>
 
 ## Data Models
 
@@ -520,6 +533,8 @@ Corresponding to **User Story - Contact Form**([#30](https://github.com/RavoPL/f
 ## Known Bugs
 
 **E-Mails** - Everything seems to work except for e-mail confirmation after payment.
+
+**Wishlist Model** - Work in progress.
 
 ## Deployment
 
