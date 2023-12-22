@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect, reverse, HttpResponse, get_object
 from django.contrib import messages
 
 from products.models import Product
+from wishlist.models import Wishlist
+from wishlist.forms import WishlistForm
 
 # Create your views here.
 
@@ -16,11 +18,11 @@ def view_bag(request):
 
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
+    redirect_url = request.POST.get('redirect_url')
 
     if 'bag' in request.POST:
         product = get_object_or_404(Product, pk=item_id)
         quantity = int(request.POST.get('quantity'))
-        redirect_url = request.POST.get('redirect_url')
         size = None
         if 'product_size' in request.POST:
             size = request.POST['product_size']
@@ -47,21 +49,15 @@ def add_to_bag(request, item_id):
 
         request.session['bag'] = bag
         return redirect(redirect_url)
-
+# Adding items to Wishlist
     elif 'wishlist' in request.POST:
-        form = WishlistForm(request.POST)
-        if form.is_valid():
-            product = form.save()
-            messages.success(request, 'Successfully added product to wishlist!')
-            # return redirect(reverse('product_detail', args=[product.id]))
-        else:
-            form = ProductForm()
-            product = get_object_or_404(Product, pk=item_id)
-            redirect_url = request.POST.get('redirect_url')
-
-            messages.info(request,'The item was added to your wishlist.')
-
-            return redirect(redirect_url)
+        data = Wishlist()
+        data.user_id = request.user.id
+        data.product_id = item_id
+        data.save()
+        messages.success(request, 'Thank you! Your wishlist has been updated.')
+            
+        return redirect(redirect_url)
 
 
 # Adjusting item count in the bag

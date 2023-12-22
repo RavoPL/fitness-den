@@ -6,11 +6,12 @@ from products.models import Product, Wishlist
 # Create your views here.
 
 # Viewing the wishlist
-@login_required
 def view_wishlist(request, user_id):
     """ A view that renders the wishlist contents page """
+    # wishlist = Wishlist.objects.filter(user=request.user)
+    # context = {'wishlist':wishlist}
 
-    return render(request, 'wishlist/wishlist.html')
+    return render(request, 'wishlist/wishlist.html', context)
 
 # Adding items to the wishlist
 @login_required
