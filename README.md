@@ -27,6 +27,7 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 4. [Data Models](#data-models)
     - [Product Review](#product-review)
     - [Contact Form](#contact-form)
+    - [Wishlist](#wishlist)
 5. [Technologies Used](#technologies-used)
 6. [Testing and Validation](#testing-and-validation)
     - [HTML Validation](#html-validation)
@@ -203,6 +204,10 @@ Corresponding to **User Story - Contact Form**([#30](https://github.com/RavoPL/f
 
 ![Image of My Contact Form Model](media/ContactModel.png)
 
+### Wishlist
+
+Custom *Wishlist* model - **WORK IN PROGRESS**
+
 ## Technologies Used
 
 ### Languages
@@ -225,20 +230,97 @@ Corresponding to **User Story - Contact Form**([#30](https://github.com/RavoPL/f
 * Fontawesome *to access free icons*
 * GoogleFonts *to access different font styles*
 * Coolors *to generate colour palette for ReadMe*
+* Lucidchart *to create flowcharts*
+* WireframeCC *to create wireframes*
 * ElephantSQL *to serve as a database for Heroku*
 * W3C *to validate HTML and CSS code*
-* CI Python Linter *to validate Python code*
+* ExtendClass Python Syntax Checker *to validate Python code*
 * JShint *to validate JavaScript code*
 
 ## Testing and Validation
 
 ### HTML Validation
 
+<details>
+  <summary>Full HTML Validation</summary>
+  <img src="media/testing/html_one.png" alt="Full Validation One" title="Full HTML Validation One">
+  <img src="media/testing/html_two.png" alt="Full Validation Two" title="Full HTML Validation Two">
+</details>
+
 ### CSS Validation
+
+<details>
+  <summary>CSS Validation</summary>
+  <img src="media/testing/css_valid.png" alt="CSS Validation" title="CSS Validation">
+</details>
 
 ### Python Validation
 
+<details>
+  <summary>bag (contexts, urls, views) Validation</summary>
+  <img src="media/testing/bag_contexts.png" alt="Bag Contexts" title="Bag Contexts Validation">
+  <img src="media/testing/bag_urls.png" alt="Bag Urls" title="Bag Urls Validation">
+  <img src="media/testing/bag_views.png" alt="Bag Views" title="Bag Views Validation">
+</details>
+
+<details>
+  <summary>checkout (admin, forms, models, urls, views) Validation</summary>
+  <img src="media/testing/checkout_admin.png" alt="Checkout Admin" title="Checkout Admin Validation">
+  <img src="media/testing/checkout_forms.png" alt="Checkout Forms" title="Checkout Forms Validation">
+  <img src="media/testing/checkout_models.png" alt="Checkout Models" title="Checkout Models Validation">
+  <img src="media/testing/checkout_urls.png" alt="Checkout Urls" title="Checkout Urls Validation">
+  <img src="media/testing/checkout_views.png" alt="Checkout Views" title="Checkout Views Validation">
+</details>
+
+<details>
+  <summary>fitness_den (settings, urls, views) Validation</summary>
+  <img src="media/testing/fitnessden_settings.png" alt="Fitness Settings" title="Fitness Settings Validation">
+  <img src="media/testing/fitnessden_urls.png" alt="Fitness Urls" title="Fitness Urls Validation">
+  <img src="media/testing/fitnessden_views.png" alt="Fitness Views" title="Fitness Views Validation">
+</details>
+
+<details>
+  <summary>home (admin, forms, models, urls, views) Validation</summary>
+  <img src="media/testing/home_admin.png" alt="Home Admin" title="Home Admin Validation">
+  <img src="media/testing/home_forms.png" alt="Home Forms" title="Home Forms Validation">
+  <img src="media/testing/home_models.png" alt="Home Models" title="Home Models Validation">
+  <img src="media/testing/home_urls.png" alt="Home Urls" title="Home Urls Validation">
+  <img src="media/testing/home_views.png" alt="Home Views" title="Home Views Validation">
+</details>
+
+<details>
+  <summary>products (admin, forms, models, urls, views, widget) Validation</summary>
+  <img src="media/testing/products_admin.png" alt="Products Admin" title="Products Admin Validation">
+  <img src="media/testing/products_forms.png" alt="Products Forms" title="Products Forms Validation">
+  <img src="media/testing/products_models.png" alt="Products Models" title="Products Models Validation">
+  <img src="media/testing/products_urls.png" alt="Products Urls" title="Products Urls Validation">
+  <img src="media/testing/products_views.png" alt="Products Views" title="Products Views Validation">
+  <img src="media/testing/products_widget.png" alt="Products Widget" title="Products Widget Validation">
+</details>
+
+<details>
+  <summary>profiles (forms, models, urls, views) Validation</summary>
+  <img src="media/testing/profiles_forms.png" alt="Profiles Forms" title="Profiles Forms Validation">
+  <img src="media/testing/profiles_models.png" alt="Profiles Models" title="Profiles Models Validation">
+  <img src="media/testing/profiles_urls.png" alt="Profiles Urls" title="Profiles Urls Validation">
+  <img src="media/testing/profiles_views.png" alt="Profiles Views" title="Profiles Views Validation">
+</details>
+
+<details>
+  <summary>wishlist (admin, forms, models, urls, views) Validation</summary>
+  <img src="media/testing/wishlist_admin.png" alt="Wishlist Admin" title="Wishlist Admin Validation">
+  <img src="media/testing/wishlist_forms.png" alt="Wishlist Forms" title="Wishlist Forms Validation">
+  <img src="media/testing/wishlist_models.png" alt="Wishlist Models" title="Wishlist Models Validation">
+  <img src="media/testing/wishlist_urls.png" alt="Wishlist Urls" title="Wishlist Urls Validation">
+  <img src="media/testing/wishlist_views.png" alt="Wishlist Views" title="Wishlist Views Validation">
+</details>
+
 ### Accessibility and Performance
+
+<details>
+  <summary>Accessibility and Performance Validation</summary>
+  <img src="media/testing/lighthouse_accperf.png" alt="Acc and Perf" title="Accessibility and Performance Validation">
+</details>
 
 ### Manual Testing of Admin and User Stories
 
