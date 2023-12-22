@@ -171,6 +171,16 @@ The website is structured in a user friendly way that makes navigation of its co
 ### Wireframes
 
 <details>
+  <summary>PC Wireframe</summary>
+  <img src="media/PCWireframe.png" alt="Wireframe on PC" title="PC Wireframe">
+</details>
+
+<details>
+  <summary>Mobile Wireframe</summary>
+  <img src="media/MobileWireframe.png" alt="Wireframe on Mobile" title="Mobile Wireframe">
+</details>
+
+<details>
   <summary>User Stories Flow Chart</summary>
   <img src="media/FitnessFlowchart.png" alt="Flow Chart of User Stories" title="User Stories Flow Chart">
 </details>
